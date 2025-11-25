@@ -76,3 +76,39 @@ button {
   width: 465px;
   padding-right: 85px;
 }
+
+.info {
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif;
+}
+
+.info h1 {
+  justify-content: center;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 900;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+.cards {
+  display: flex;
+  flex: 0;
+  flex-direction: column;
+}
+
+.cards img {
+  width: 150px;
+  height: 150px;
+  border: solid #3882f6 5px;
+  border-radius: 20px;
+}
+
+.cards p {
+  text-align: center;
+  width: 150px;
+}
