@@ -1,3 +1,6 @@
+body {
+  margin: 0;
+}
 header {
   background-color: #1f2937;
 }
@@ -72,11 +75,14 @@ button {
   width: 545px;
 }
 .right-container img {
-  height: 200px;
+  height: 225px;
   width: 465px;
   padding-right: 85px;
 }
 
+.second-section {
+  height: 440px;
+}
 .info {
   display: flex;
   flex-direction: column;
@@ -111,4 +117,61 @@ button {
 .cards p {
   text-align: center;
   width: 150px;
+}
+
+.third-section {
+  background-color: #e5e7eb;
+}
+
+.testimonial {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 330px;
+}
+
+.testimonial p {
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 300;
+  width: 800px;
+  margin: 0;
+  padding-top: 40px;
+  font-style: italic;
+}
+
+.name {
+  margin-top: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  padding-left: 580px;
+}
+
+.fourth-section {
+  height: 200px;
+}
+
+.call-to-action {
+  display: flex;
+  justify-content: center;
+  height: 200px;
+  align-items: center;
+}
+
+.call {
+  display: flex;
+  background-color: #3882f6;
+  padding: 20px;
+  width: 850px;
+  gap: 240px;
+  height: 80px;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.action h3,
+.action p {
+  margin: 0;
 }
