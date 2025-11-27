@@ -165,13 +165,36 @@ button {
   background-color: #3882f6;
   padding: 20px;
   width: 850px;
-  gap: 240px;
+  gap: 100px;
   height: 80px;
   align-items: center;
   border-radius: 5px;
+  justify-content: center;
+}
+
+.action {
+  color: #f9faf8;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
 }
 
 .action h3,
 .action p {
   margin: 0;
+}
+
+#call-button {
+  margin: 0;
+  border: solid #f9faf8 2px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f2937;
+  height: 50px;
+  font-family: "Roboto", sans-serif;
+  font-size: 10px;
+  color: #f9faf8;
 }
